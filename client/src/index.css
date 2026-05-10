@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, Arial, sans-serif;
+  background: #f8fafc;
+  color: #0f172a;
+}
+
+.btn-primary {
+  @apply bg-slate-950 text-white px-5 py-3 rounded-xl font-semibold hover:bg-orange-500 transition-all duration-300;
+}
+
+.btn-outline {
+  @apply border border-slate-300 bg-white text-slate-800 px-5 py-3 rounded-xl font-semibold hover:bg-slate-950 hover:text-white transition-all duration-300;
+}
+
+.card {
+  @apply bg-white rounded-3xl shadow-sm border border-slate-100;
+}
+
+.admin-input {
+  @apply w-full border border-slate-200 rounded-2xl p-4 mt-2 outline-none focus:border-orange-500 bg-white;
+}
